@@ -22,5 +22,11 @@ When this file is referenced for **The Auran Chronicles**, the AI assumes the **
 - **SHEOL_VOID**: Shadowy, ink-like black energy, distorted and monstrous.
 - **GOTHAM_NOIR**: High-contrast, cold blue and charcoal shadows, wet rainy London streets.
 
+## 5. Dialogue & Visual Speech
+To prevent random AI-generated dialogue or "mushy" lip-sync in visual-only prompts, use the following tags:
+- **[NO_DIALOGUE]**: Lips remain sealed or moving in silent reaction (breathing, gasping).
+- **[DIALOGUE: "Line Text"]**: Specific line for the AI to synchronize (only if the tool supports lip-syncing text).
+- **Default**: Assume **[NO_DIALOGUE]** for all trailer shots unless specified.
+
 ---
 *All AI-generated prompts must include at least one of these keywords.*

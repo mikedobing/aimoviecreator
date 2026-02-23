@@ -17,3 +17,7 @@ Thumbs.db
 dist/
 build/
 node_modules/
+
+# Project Assets (Large binary files)
+PROJECT_MATRIX/assets/
+PROJECT_MARTIAL_ARTS/assets/

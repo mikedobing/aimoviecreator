@@ -18,7 +18,8 @@
 ## 3. The Sheol (Antagonists)
 - **Nature**: Demonic race that possesses human hosts.
 - **Visual Description**: 
-    - **Physical**: Monstrous, shadowy, distorted.
+    - **Physical**: Monstrous, bio-mechanical, and reptilian. Sleek, dark iridescent scales, elongated "Alien-esque" skull, and multiple needle-sharp teeth.
+- **Energy**: Distorted, ink-like black energy (SHEOL_VOID) venting from joints or gills.
     - **Possession**: When active, host eyes glitch with black/red energy, veins blacken.
 - **Combat Style**: Brutal, unnatural movement, fast and unpredictable.
 
