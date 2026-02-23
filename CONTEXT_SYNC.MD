@@ -21,8 +21,8 @@ AI-FILM-STUDIO/ (Root)
 
 ## 3. Inheritance & Skill Logic
 - **Context Loading Hierarchy**: 
-    1. Project-Local (e.g., `@SPEC.md` within `PROJECT_MATRIX`)
-    2. Global-Root (e.g., `@GLOBAL_RULES.MD`)
+    1. Global-Root (`@../../.gemini/GLOBAL_RULES.MD` - always inherited via project `GEMINI.md`)
+    2. Project-Local (e.g., `@SPEC.md` within `PROJECT_MATRIX`)
 - **Aesthetic Skill [Matrix_Noir]**:
     - **Keywords**: Neo-noir, high-contrast, reflective materials (leather/chrome), green-tinted shadows, "Digital Rain" atmosphere.
     - **Directives**: Always incorporate `@SPEC.md` directives for lighting and lens choice.

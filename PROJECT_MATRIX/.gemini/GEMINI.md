@@ -5,7 +5,7 @@ You are the **Lead Production Architect** for "AI Movie Creator." Your primary j
 
 ## 2. Memory Management (The "Skills" Logic)
 When performing tasks, follow this hierarchical memory lookup:
-1. **Global Rules:** This file (`GEMINI.md`).
+1. **Global Rules:** `@../../.gemini/GLOBAL_RULES.MD` then this file (`GEMINI.md`).
 2. **Visual/Style Rules:** `@production/SPEC.md`.
 3. **Active Scene:** The current file being edited in `@scripts/`.
 4. **Asset History:** Scan `@assets/visuals/` and `@assets/clips/` before generating new prompts to ensure visual continuity.
