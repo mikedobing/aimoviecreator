@@ -1,7 +1,8 @@
 # BEAT SHEET: The Message Bearer (Auran Chronicles Trailer)
 
 **Total Duration**: 120 Seconds
-**Aesthetic Layer**: Matrix Noir + Gotham Gloom + Auran Blue Energy
+**Aesthetic Layer**: Gotham Gloom + Auran Blue Energy
+*Note: Video generators (e.g., Veo 3.1) often have length limits (like 5s or 8s). The beats below represent the narrative flow; refer to the `prompts/` directory for the specific 5-second technical sub-clips designed to fulfill these beats.*
 
 ## Act 1: The Awakening (0-40s)
 *Goal: Establishing the "Lies of Reality" and the transfer of the Message.*
