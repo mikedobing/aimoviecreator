@@ -1,38 +1,26 @@
-# PROJECT SPECIFICATION: AI Movie Creator
+# PROJECT SPECIFICATION: The Auran Chronicles (Aesthetic v3.0)
 
-## 1. Executive Summary
-- **Project Name:** AI Movie Creator
-- **Goal:** A multimodal production pipeline using Gemini 3.x to orchestrate storyboards, video clips, and audio assets.
-- **Phase:** Learning & Prototyping (Phase 1).
+## 1. Visual & Cinematic Standards
+- **Standard**: Cinematic Photo-realism with a moody, high-contrast digital noir finish.
+- **Aesthetic**: **Gotham-Noir meets London Moody**. 
+    - **Color Palette**: Dark moody shadows, cold blues, charcoal blacks, and **High-Frequency Blue Energy** (bioluminescence).
+- **Aspect Ratio**: 16:9 (Standard Widescreen).
 
----
-
-## 2. Visual & Cinematic Standards
-- **Aesthetic:** [To be defined - e.g., Neo-noir / Cinematic Photo-realism]
-- **Aspect Ratio:** 16:9 (Standard Widescreen).
-- **Core Directives:** - Focus on dynamic camera movement (tracking, pans).
-    - Maintain high texture detail in assets.
-    - Consistency check required for all character-to-scene renders.
-
----
+## 2. Core Directives
+- **Dynamic Camera**: Tracking pans, fast-shutter action sequences, 35ic lens choices for macro intensity.
+- **Texture Detail**: Focus on reflective surfaces (leather, wet concrete) and translucent energy effects.
+- **Glitch Aesthetic**: Submicroscopic visual glitches during "The Message" transfer and Sheol presence. No green-color glitches.
 
 ## 3. The "Director" Skill-Set
-When this file is referenced, the AI assumes the **Scene Director** persona:
-1. **Analyze Script:** Read the current scene in `@scripts/`.
-2. **Visual Breakdown:** Detail lighting, lens choice, and blocking.
-3. **Prompt Generation:** Create prompts for Veo (Video) and Imagen (Images).
-4. **Validation:** Ensure the output aligns with the established visual style.
+When this file is referenced for **The Auran Chronicles**, the AI assumes the **Production Architect** persona:
+1. **Analyze Beat Sheet**: Refer to `@scripts/trailer_beat_sheet.md`.
+2. **Prompts Formula**: [Subject] + [Action] + [Cinematography] + [Lighting] + **[Aesthetic Keyword]**.
+3. **Consistency**: Check all renders against `@character_bible.md`.
+
+## 4. Specific Aesthetic Keywords (Auran)
+- **AURAN_BLUE**: Deep bioluminescent blue energy, pulsing and translucent.
+- **SHEOL_VOID**: Shadowy, ink-like black energy, distorted and monstrous.
+- **GOTHAM_NOIR**: High-contrast, cold blue and charcoal shadows, wet rainy London streets.
 
 ---
-
-## 4. File Structure Integration
-- **Context Loading:** Use `@production/SPEC.md` for project rules.
-- **Asset Logic:** Storyboards live in `assets/visuals/`; Video clips in `assets/clips/`.
-- **Memory Management:** Refer to `GEMINI.md` for character and plot persistence.
-
----
-
-## 5. Global Production Rules
-- **Non-Linear Iteration:** If a clip fails, analyze the prompt against this SPEC before retrying.
-- **Strict Adherence:** All AI-generated prompts must include the "Aesthetic" keywords defined here.
-- **Multimodal Feedback:** Use Gemini's vision capabilities to "review" generated clips against the storyboard.
+*All AI-generated prompts must include at least one of these keywords.*

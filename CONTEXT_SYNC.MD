@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 - **Status:** Architecture Setup & Learning Phase.
-- **Current Project:** "Matrix-Style" Trailer (Green tint, cyberpunk noir, high-contrast).
+- **Current Project:** "The Message Bearer" (Gotham Noir, dark, moody London, blue energy).
 - **Primary Agents:** Antigravity (Mission Control), Conductor (Execution), Director (Review).
 
 ## 2. Hierarchical Workspace Structure
@@ -23,9 +23,9 @@ AI-FILM-STUDIO/ (Root)
 - **Context Loading Hierarchy**: 
     1. Global-Root (`@../../.gemini/GLOBAL_RULES.MD` - always inherited via project `GEMINI.md`)
     2. Project-Local (e.g., `@SPEC.md` within `PROJECT_MATRIX`)
-- **Aesthetic Skill [Matrix_Noir]**:
-    - **Keywords**: Neo-noir, high-contrast, reflective materials (leather/chrome), green-tinted shadows, "Digital Rain" atmosphere.
-    - **Directives**: Always incorporate `@SPEC.md` directives for lighting and lens choice.
+- **Aesthetic Skill [Gotham_Noir]**:
+    - **Keywords**: Gotham-style noir, dark moody London, high-contrast, reflective materials (leather/chrome), blue bioluminescent energy.
+    - **Directives**: Always incorporate `@SPEC.md` directives for lighting and lens choice. Avoid green tints.
 
 ## 4. Pending Tasks
 1. [x] Refine Workspace Blueprint (`CONTEXT_SYNC.MD`).
