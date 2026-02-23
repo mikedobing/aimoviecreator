@@ -1,16 +1,26 @@
-# Production Plan: Matrix Noir Trailer
+# Production Log: The Auran Chronicles
 
-## 1. Scene Tracking
-| Scene ID | Description | Status | Visual Reference |
+## 1. State Tracking (Act 1: The Awakening)
+### Shot: P01a - The Setting
+- **Location**: Exterior of an abandoned gothic church, raining.
+- **Character Status**: Environment only.
+- **Plot Points Established**: World-building; establishing the dark, moody London setting of hidden warfare.
+- **Successfully Rendered Prompt**: 
+  > *Abandoned gothic church in the rainy London night. Moody cinematic shot from a low angle, lightning flashes. 35mm lens, static wide shot. Low-key lighting, cold blue and charcoal shadows, wet stone texture.*
+- **Result Output**: `church.png`
+
+## 2. Asset Tracking (Act 1)
+| Shot ID | Description | Gen Status | Visual Asset (`@assets/visuals/`) |
 | :--- | :--- | :--- | :--- |
-| SC01 | **The Digital Rain**: Slow-mo close-up of neon green code cascading down a black leather sleeve. | [DRAFTING] | @SPEC.md |
-| SC02 | **The Awakening**: Protagonist opens eyes; reflection of code in sunglasses. | [PENDING] | @character_bible.md |
-| SC03 | **The Choice**: Hand reaching for a floating object; high-contrast lighting. | [PENDING] | - |
-
-## 2. Scene 1 Detail: [The Digital Rain]
-- **Goal**: Establish the "Matrix Green Tint" aesthetic.
-- **Visual Breakdown**: Macro shot, 35mm lens, shallow depth of field. Lighting: Dim noir with vibrant green rim light.
-- **Prompt Architect**: [Subject: Black leather trench coat sleeve] + [Action: Cascading digital rain / green falling code] + [Cinematography: Slow-motion macro shot, tracking movement] + [Lighting: Low-key noir, neon green glow].
+| P01a | Gothic Church Exterior | **[IMAGE LOCKED]** | `church.png` |
+| P01b | Church exterior push-in | [PENDING] | - |
+| P02 | Terrified woman chase | [PENDING] | - |
+| P03 | Sheol demon emergence | [PENDING] | - |
+| P04a | Seb entering church | [PENDING] | - |
+| P04b | Finding the Courier | [PENDING] | - |
+| P05 | The Transfer | [PENDING] | - |
+| P06 | The Awakening | [PENDING] | - |
 
 ---
 *Last Updated: 2026-02-23*
+*Refer to @SPEC.md and @character_bible.md for active project markers.*
